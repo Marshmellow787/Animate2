@@ -89,9 +89,27 @@ body{
     }
     .description{
         font-size: 2rem;
+        text-align: center;
     }
     
     .button a{
         font-size: 1rem;
     }
+}
+
+@media screen and (max-width:425px){
+    .greetings{
+        display: block;
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    .description{
+        font-size: 1rem;
+    }
+    
+    .button a{
+        font-size: 1rem;
+    }
+    
 }

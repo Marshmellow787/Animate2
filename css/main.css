@@ -33,7 +33,7 @@ body {
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
-      font-size: 13px; /* Reduce el tamaño del texto para dispositivos más pequeños */
+      font-size: 10px; /* Reduce el tamaño del texto para dispositivos más pequeños */
       margin-bottom: 530px;
       letter-spacing: 3px;
   }
@@ -41,23 +41,88 @@ body {
 }
 .titulo {
   margin-bottom: 180px;
+  bottom: 5%;
+  scale: 100%;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: rgb(255, 6, 6);
   position: absolute;
   font-weight: bold;
   letter-spacing: 10px;
   opacity: 0;
-  animation: fadeIn 3s ease-in-out forwards;
+  animation: fadeInOut 20s ease-in-out forwards;
   text-align: center;
 }
-@keyframes fadeIn {
-  from {
+@keyframes fadeInOut {
+  0% {
     opacity: 0;
   }
-  to {
+  20% {
     opacity: 1;
   }
+  65% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
+
+.titulo2 {
+  margin-bottom: 180px;
+  top: 20%;
+  scale: 100%;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 6, 6);
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 10px;
+  opacity: 0;
+  animation: fadeInOut2 12s ease-in-out 18s forwards;
+  text-align: center;
+}
+@keyframes fadeInOut2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1; 
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0; 
+  }
+}
+
+.titulo3 {
+  margin-bottom: 180px;
+  top: 20%;
+  scale: 100%;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 6, 6);
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 10px;
+  opacity: 0;
+  animation: fadeInOut2 14s ease-in-out 27s forwards;
+  text-align: center;
+}
+@keyframes fadeInOut2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1; 
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0; 
+  }
+}
+
 
 .night {
   z-index: -1;
@@ -1736,4 +1801,27 @@ h1 {
   }
 }
 
+@media screen and (min-width: 425px) {
+  /* Estilos para pantallas grandes */
+}
+.titulo {
+  scale: 65%;
+  top: -10%;
+}
+.titulo2 {
+  scale: 65%;
+  top: -2%;
+}
+.titulo3 {
+  scale: 65%;
+  top: -2%;
+}
+h1 {
+      font-size: 2em;
+  }
+  #lyrics {
+
+    margin-bottom: 425px;
+
 /* Agregar más estilos según sea necesario */
+}
