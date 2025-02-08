@@ -1911,3 +1911,42 @@ h1 {
 /* Agregar más estilos según sea necesario */
 }
 }
+
+@media screen and (min-width: 320px) {
+  /* Estilos para pantallas grandes */
+
+  .flowers {
+
+    right: 15%;
+
+  }
+
+
+.titulo {
+  bottom: 0%;
+  scale: 55%;
+  top: -16%;
+}
+.titulo2 {
+  scale: 65%;
+  top: -2%;
+}
+.titulo3 {
+  scale: 65%;
+  top: -2%;
+}
+.titulo4 {
+  scale: 65%;
+  top: 36%;
+}
+
+h1 {
+      font-size: 2em;
+  }
+  #lyrics {
+
+    margin-bottom: 425px;
+
+/* Agregar más estilos según sea necesario */
+}
+}
