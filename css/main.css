@@ -40,31 +40,7 @@ body {
 
 }
 
-button {
-  background-color: #ff4d88; 
-  color: white;
-  border: 2px solid #ff4d88;
-  border-radius: 50px; 
-  font-size: 20px;
-  padding: 15px 30px;
-  cursor: pointer;
-  font-weight: bold;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-}
 
-
-button:hover {
-  background-color: #ff1a5d;
-  border-color: #ff1a5d;
-  transform: scale(1.1); 
-}
-
-
-button:active {
-  background-color: #e60047; 
-  transform: scale(0.95); 
-}
 
 .titulo {
   margin-bottom: 180px;
@@ -225,6 +201,7 @@ button:active {
 .flowers {
   position: relative;
   transform: scale(0.9);
+  right: 4%;
 
 
   /*margin-bottom: 100px;
@@ -1861,14 +1838,9 @@ h1 {
 @media screen and (min-width: 425px) {
   /* Estilos para pantallas grandes */
 
-button {
-scale: 70%;
 
-}
 
-.flowers {
 
-}
 .titulo {
   bottom: 0%;
   scale: 55%;
