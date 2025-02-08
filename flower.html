@@ -9,7 +9,16 @@
     <title>Flower</title>
   </head>
   <body class="container">
-    <audio src="sound/Calling (Spider-Man_ Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie).mp3" autoplay></audio>
+    <audio id="music" src="sound/Calling (Spider-Man_ Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie).mp3"></audio>
+    <button onclick="playMusic()">Reproducir Música</button>
+
+    <script>
+      function playMusic() {
+        var audio = document.getElementById("music");
+        audio.play(); // Reproducir la música cuando el usuario haga clic en el botón
+      }
+    </script>
+    
     <div id="lyrics">
       
     </div>
