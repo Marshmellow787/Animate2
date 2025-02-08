@@ -123,6 +123,34 @@ body {
   }
 }
 
+.titulo4 {
+  margin-bottom: 180px;
+  top: 20%;
+  scale: 100%;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 6, 6);
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 10px;
+  opacity: 0;
+  animation: fadeInOut3 40s ease-in-out 40s forwards;
+  text-align: center;
+}
+@keyframes fadeInOut3 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1; 
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0; 
+  }
+}
+
 
 .night {
   z-index: -1;
@@ -1816,6 +1844,11 @@ h1 {
   scale: 65%;
   top: -2%;
 }
+.titulo4 {
+  scale: 65%;
+  top: 36%;
+}
+
 h1 {
       font-size: 2em;
   }
