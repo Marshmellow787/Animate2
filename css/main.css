@@ -225,7 +225,7 @@ button:active {
 .flowers {
   position: relative;
   transform: scale(0.9);
-  left: -8%;
+
 
   /*margin-bottom: 100px;
   */
@@ -1867,8 +1867,7 @@ scale: 70%;
 }
 
 .flowers {
-  right: 30%;
-  left: -30%;
+
 }
 .titulo {
   bottom: 0%;
